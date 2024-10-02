@@ -1,0 +1,78 @@
+h1 {
+    font-size: 16px;
+    color: #000099;
+    font-family: "Jacquarda Bastarda 9", serif;
+}
+
+p.thirdPara{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+}
+
+body{
+    font-family: helvetica, arial, sans-serif;
+    background-color:#ffffff;
+}
+
+.secondPara{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:olivedrab;
+}
+
+#footer {
+    color: teal;
+    background-color: #ff0000;
+    font-size: 10px;
+    text-align: center;
+}
+
+nav li a {
+    &:link {
+      text-decoration: none;
+      color: #000000;
+    }
+  
+    &:visited {
+      text-decoration: none;
+      color: #CCCCCC;
+    }
+  
+    &:hover {
+      text-decoration: underline;
+      color: #000000;
+    }
+  
+    &:active {
+      text-decoration: underline;
+      color: #CC6600;
+    }
+  }
+
+nav li a:link{
+    text-decoration:none;
+    color:#000000;
+}
+nav li a:visited{
+    text-decoration:none;
+    color:#CCCCCC;
+}
+nav li a:hover{
+    text-decoration:underline;
+    color:#66CC00;
+}
+nav li a:active{
+    text-decoration:underline;
+    color:#CC6600;
+}
+
+.quals{
+    border-collapse: collapse;
+}
+.quals th{
+    border-bottom:3px solid #ccc;
+    padding:5px;
+}
+.quals td{
+    border-bottom:1px solid #ccc;
+    padding:5px;
+}
